@@ -30,7 +30,7 @@ class _DescriptionState extends State<Description> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: kWhiteColor,
-        elevation: 2,
+        elevation: 0.4,
         shadowColor: Colors.black,
         automaticallyImplyLeading: true,
         leading: GestureDetector(
