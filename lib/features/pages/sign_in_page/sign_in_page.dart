@@ -51,20 +51,18 @@ class _SignInScreenState extends State<SignInScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        elevation: 0.0,
-      ),
       body: SingleChildScrollView(
         child: Form(
           key: _formKey,
           child: Padding(
             padding: const EdgeInsets.symmetric(
-                horizontal: kSizes.lg, vertical: kSizes.sm),
+                horizontal: kSizes.lg, vertical: kSizes.xl),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisSize: MainAxisSize.min,
               children: [
+                SizedBox(height: kSizes.defaultSpace),
                 Center(
                     child: Text(
                   kAppText,

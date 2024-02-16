@@ -50,7 +50,7 @@ class _MeetUpScreenState extends State<MeetUpScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: kWhiteColor,
-        elevation: 2,
+        elevation: 1,
         shadowColor: Colors.black,
         automaticallyImplyLeading: true,
         leading: GestureDetector(
@@ -299,6 +299,7 @@ class _MeetUpScreenState extends State<MeetUpScreen> {
                 ),
               ),
             ),
+            SizedBox(height: kSizes.defaultSpace),
           ],
         ),
       ),

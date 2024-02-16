@@ -49,7 +49,7 @@ class _DescriptionState extends State<Description> {
       body: SingleChildScrollView(
         child: Padding(
           padding:
-              const EdgeInsets.symmetric(horizontal: kSizes.xl, vertical: kSizes.md),
+              const EdgeInsets.symmetric(horizontal: kSizes.md, vertical: kSizes.md),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -76,7 +76,7 @@ class _DescriptionState extends State<Description> {
                                 image: AssetImage(myImages[i]),
                                 fit: BoxFit.fill,
                                 height: 350,
-                                width: 350,
+                                width: 450,
                               ),
                             ),
                             options: CarouselOptions(
